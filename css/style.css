@@ -1,0 +1,9 @@
+#home {
+	background: url("file://images/SriyaSarkar_Headshot.jpg") 50% 0 repeat fixed;
+	min-height: 1000px;
+}
+
+#about {
+	background: url ("file://images/vote.jpg") 50% 0 no-repeat;
+	min-height: 1000px;
+}
