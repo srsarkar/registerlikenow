@@ -2,6 +2,7 @@
 <html lang="en">
 <meta charset="utf-8">
 	<head>
+		<link href='http://fonts.googleapis.com/css?family=Rock+Salt|Amatic+SC:400,700|Raleway:400,300,500,600,700' rel='stylesheet' type='text/css'>
 		<title>Register...Like, Now</title>
 		<link rel="stylesheet" href="css/style.css">
 	</head>
@@ -10,10 +11,20 @@
 <!--"data-" treated as storage area for private data all we need to do is control the speed of the background images, so data-type="background" and data-speed="10" are key attributes that specify the parameters-->
 		<section id="home" data-type="background" data-speed="10">
 			<article>Register to Vote!</article>
+			<form>
+				<input type="button" value="REGISTER" onclick="window.location.href='#register'"/>
+			</form>
+			<form>
+				<input type="button" value="LEARN" onclick="window.location.href='#learn'"/>
+			</form>
 		</section>
 
-		<section id="about" data-type="background" data-speed="4">
+		<section id="register" data-type="background" data-speed="4">
 			<article>Are you doing something important now?</article>
+		</section>
+
+		<section id="learn" data-type="background" data-speed="2">
+			<article>There are so many weirdo politicians out there!</article>
 		</section>
 
 	</body>

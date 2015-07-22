@@ -18,6 +18,8 @@ article {
 }
 
 #home article {
+	font-family: 'Raleway', sans-serif;
+	font-size: 74px;
 	height: 458px;
 	position: absolute;
 	text-align: center;
@@ -25,7 +27,23 @@ article {
 	width: 100%;
 }
 
-#about {
+#home input {
+	font-family: 'Raleway', sans-serif;
+	width: 300px;
+	padding: 20px;
+	font-weight: bold;
+	font-size: 150%;
+	background: #3366CC;
+	color: #FFFFFF;
+	cursor: pointer;
+	border: 1px solid #999999;
+	border-radius: 10px;
+	-webkit-box-shadow: 6px 6px 5px #999999;
+	-moz-box-shadow: 6px 6px 5px #999999;
+	box-shaddow: 6px 6px 5px; #999999;
+}
+
+#register {
 	background: url("../images/lion.jpg") 50% 0 no-repeat;
 	height: 1000px;
 	margin: 0 auto;
@@ -36,7 +54,30 @@ article {
 	box-shadow: 0 0 50px rgba(0,0,0,0.8);
 }
 
-#about article {
+#register article {
+	font-family: 'Raleway', sans-serif;
+	font-size: 74px;
+	height: 458px;
+	position: absolute;
+	text-align: center;
+	top: 150px;
+	width: 100%;
+}
+
+#learn {
+	background: url("../images/test.jpg") 50% 0 no-repeat;
+	height: 1000px;
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1920px;
+	position: relative;
+	-webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
+	box-shadow: 0 0 50px rgba(0,0,0,0.8);
+}
+
+#learn article {
+	font-family: 'Raleway', sans-serif;
+	font-size: 74px;
 	height: 458px;
 	position: absolute;
 	text-align: center;
