@@ -40,7 +40,7 @@ article {
 	border-radius: 10px;
 	-webkit-box-shadow: 6px 6px 5px #999999;
 	-moz-box-shadow: 6px 6px 5px #999999;
-	box-shaddow: 6px 6px 5px; #999999;
+	box-shadow: 6px 6px 5px; #999999;
 }
 
 #register {
