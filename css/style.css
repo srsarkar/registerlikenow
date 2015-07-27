@@ -1,3 +1,5 @@
+/*link,visit, hover, active, focus*/
+
 body {
 	margin: 0;
 	padding: 0;
@@ -8,16 +10,17 @@ article {
 }
 
 #home {
-	background: url("../images/vote.jpg") 50% 0 no-repeat fixed;
+	/*background: url("../images/vote.jpg") 50% 0 no-repeat fixed;*/
+	background-color: blue;
 	height: 1000px;
 	margin: 0 auto;
 		width: 100%;
 		max-width: 1920px;
 		position: relative;
-		box-shadow: 0 0 50px rgba(0,0,0,0.8);
 }
 
 #home article {
+	color: black;
 	font-family: 'Raleway', sans-serif;
 	font-size: 74px;
 	height: 458px;
@@ -38,20 +41,21 @@ article {
 	cursor: pointer;
 	border: 1px solid #999999;
 	border-radius: 10px;
-	-webkit-box-shadow: 6px 6px 5px #999999;
-	-moz-box-shadow: 6px 6px 5px #999999;
-	box-shadow: 6px 6px 5px; #999999;
+}
+
+#home #registerButton {
+	background-color: purple;
+	float: right;
 }
 
 #register {
-	background: url("../images/lion.jpg") 50% 0 no-repeat;
+	/*background: url("../images/lion.jpg") 50% 0 no-repeat;*/
+	background-color: white;
 	height: 1000px;
 	margin: 0 auto;
 	width: 100%;
 	max-width: 1920px;
 	position: relative;
-	-webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
-	box-shadow: 0 0 50px rgba(0,0,0,0.8);
 }
 
 #register article {
@@ -65,14 +69,13 @@ article {
 }
 
 #learn {
-	background: url("../images/test.jpg") 50% 0 no-repeat;
+	/*background: url("../images/test.jpg") 50% 0 no-repeat;*/
+	background-color: red;
 	height: 1000px;
 	margin: 0 auto;
 	width: 100%;
 	max-width: 1920px;
 	position: relative;
-	-webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
-	box-shadow: 0 0 50px rgba(0,0,0,0.8);
 }
 
 #learn article {
@@ -86,14 +89,13 @@ article {
 }
 
 #about {
-	background: url("../images/aboutBG.jpg") 50% 0 no-repeat;
+	/*background: url("../images/aboutBG.jpg") 50% 0 no-repeat;*/
+	background-color: yellow;
 	height: 1000px;
 	margin: 0 auto;
 	width: 100%;
 	max-width: 1920px;
 	position: relative;
-	-webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
-	box-shadow: 0 0 50px rgba(0,0,0,0.8);
 }
 
 #about article {
