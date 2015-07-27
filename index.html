@@ -9,17 +9,22 @@
 
 	<body>
 <!--"data-" treated as storage area for private data all we need to do is control the speed of the background images, so data-type="background" and data-speed="10" are key attributes that specify the parameters-->
+
+<!--HOME PAGE-->
 		<section id="home" data-type="background" data-speed="10">
 			<article>Register to Vote!</article>
 			<form>
-				<input type="button" id="registerButton" value="REGISTER" onclick="window.location.href='#register'"/>
+				<input type="button" value="REGISTER" onclick="window.location.href='#register'">
 			</form>
+
 			<form>
-				<input type="button" value="LEARN" onclick="window.location.href='#learn'"/>
+				<input type="button" value="LEARN" onclick="window.location.href='#learn'">
 			</form>
 		</section>
 
+<!--REGISTER PAGE-->
 		<section id="register" data-type="background" data-speed="4">
+		<a name="register"></a>
 			<header>
 				<div id="logo" class="menuUp">
 					<h1>Register...Like, Now</h1>
@@ -35,6 +40,7 @@
 			<article>Are you doing something important now?</article>
 		</section>
 
+<!--LEARN PAGE-->
 		<section id="learn" data-type="background" data-speed="2">
 			<article>There are so many weirdo politicians out there!</article>
 		</section>

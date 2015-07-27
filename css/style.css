@@ -33,19 +33,27 @@ article {
 #home input {
 	font-family: 'Raleway', sans-serif;
 	width: 300px;
-	padding: 20px;
+	padding: 2%;
 	font-weight: bold;
 	font-size: 150%;
-	background: #3366CC;
 	color: #FFFFFF;
 	cursor: pointer;
 	border: 1px solid #999999;
 	border-radius: 10px;
 }
 
-#home #registerButton {
+form {
+	display: inline;
+}
+
+input {
 	background-color: purple;
+}
+
+#learnButton {
+	background-color: yellow;
 	float: right;
+	margin: 25% 20% 20% 0;
 }
 
 #register {
