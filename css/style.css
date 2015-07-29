@@ -1,5 +1,31 @@
 /*link,visit, hover, active, focus*/
 
+* {
+	box-sizing: border-box;
+}
+
+.row:after {
+	content: "";
+	clear: both;
+	display: block;
+}
+[class*="col-"] {
+	float: left;
+	padding: 15px;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
 body {
 	margin: 0;
 	padding: 0;
@@ -13,13 +39,13 @@ article {
 	/*background: url("../images/vote.jpg") 50% 0 no-repeat fixed;*/
 	background-color: blue;
 	height: 1000px;
-	margin: 0 auto;
-		width: 100%;
-		max-width: 1920px;
-		position: relative;
+	/*margin: 0 auto;*/
+	width: 100%;
+	max-width: 1920px;
+	position: relative;
 }
 
-#home article {
+#home h1 {
 	color: black;
 	font-family: 'Raleway', sans-serif;
 	font-size: 74px;
@@ -30,7 +56,7 @@ article {
 	width: 100%;
 }
 
-#home input {
+/* #home input {
 	font-family: 'Raleway', sans-serif;
 	width: 300px;
 	padding: 2%;
@@ -40,21 +66,48 @@ article {
 	cursor: pointer;
 	border: 1px solid #999999;
 	border-radius: 10px;
+} */
+
+a {
+	display: block;
+	width: 90px;
+	height: 50px;
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	color: white;
+	/*width: 100px;
+	text-align: center;
+	display: inline-block;
+	margin: 0 auto;*/
 }
 
-form {
-	display: inline;
+.homeButtons {
+	display: inline-block;
+	width: 100%;
+	margin: 0 auto;
 }
 
-input {
+#test1 {
 	background-color: purple;
 }
 
-#learnButton {
+#test2 {
 	background-color: yellow;
-	float: right;
-	margin: 25% 20% 20% 0;
+	color: black;
 }
+
+/*form {
+	display: inline-block;
+	margin: 0 auto;
+}
+
+input.registerButton {
+	background-color: purple;
+}
+
+input.learnButton {
+	background-color: yellow;
+}*/
 
 #register {
 	/*background: url("../images/lion.jpg") 50% 0 no-repeat;*/
