@@ -29,6 +29,7 @@
 body {
 	margin: 0;
 	padding: 0;
+	width: auto;
 }
 
 article {
@@ -47,14 +48,43 @@ article {
 
 #home h1 {
 	color: black;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Rock Salt', sans-serif;
 	font-size: 74px;
 	height: 458px;
 	position: absolute;
 	text-align: center;
-	top: 150px;
+	top: 10%;
 	width: 100%;
 }
+
+#home h2 {
+	color: black;
+	font-family: 'Amatic SC', sans-serif;
+	font-size: 48px;
+	position: absolute;
+	text-align: center;
+	top: 30%; 
+	width: 100%;
+}
+
+a {
+	display: inline-block;
+	font-family: 'Raleway', sans-serif;
+	padding: 2%;
+	border: 5px solid black;
+	border-radius: 10px;
+	background-color: white;
+	text-decoration: none;
+	text-align: center; 
+}
+
+.buttons {
+	position: relative;
+	top: 40%;
+	width: 1000px;
+	margin-left: 20px;
+}
+
 
 /* #home input {
 	font-family: 'Raleway', sans-serif;
@@ -68,23 +98,28 @@ article {
 	border-radius: 10px;
 } */
 
-a {
-	display: block;
-	width: 90px;
-	height: 50px;
-	text-align: center;
+/* a {
+	display: inline-block;
 	font-family: 'Raleway', sans-serif;
-	color: white;
+	color: black;
+	text-decoration: none;
+	width: 120px;
+	height: 50px;
+	border-radius: 10px;
+	border-style: solid;
+	border-width: 5px;
+	border-color: black;
+	padding: 10px;
+	text-align: center;
+
 	/*width: 100px;
 	text-align: center;
 	display: inline-block;
-	margin: 0 auto;*/
-}
-
-.homeButtons {
-	display: inline-block;
-	width: 100%;
 	margin: 0 auto;
+} 
+
+.homebuttons {
+	margin-top: 100px;
 }
 
 #test1 {
@@ -94,7 +129,7 @@ a {
 #test2 {
 	background-color: yellow;
 	color: black;
-}
+} */
 
 /*form {
 	display: inline-block;
@@ -127,6 +162,17 @@ input.learnButton {
 	text-align: center;
 	top: 150px;
 	width: 100%;
+}
+
+nav {
+	background-color: #FFFFFF;
+	border: 1px solid #DEDEDE;
+	border-radius: 4px;
+	color: purple;
+	display: block;
+	margin: 8px 22px 8px 22px;
+	overflow: hidden;
+	width: 90%;
 }
 
 #learn {
