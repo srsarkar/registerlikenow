@@ -67,7 +67,7 @@ article {
 	width: 100%;
 }
 
-a {
+#home a {
 	display: inline-block;
 	font-family: 'Raleway', sans-serif;
 	padding: 2%;
@@ -165,15 +165,73 @@ input.learnButton {
 }
 
 nav {
-	background-color: #FFFFFF;
-	border: 1px solid #DEDEDE;
-	border-radius: 4px;
-	color: purple;
+	background-color: yellow;
 	display: block;
-	margin: 8px 22px 8px 22px;
+	/*margin: 8px 22px 8px 22px;*/
 	overflow: hidden;
-	width: 90%;
+	float: left;
+	width: 100%;
+	height: 15%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 9999;
+				vertical-align: middle;
 }
+
+#register #logo {
+	float: left;
+	display: inline;
+	vertical-align: middle;
+	top: 50px;
+}
+
+#register ul {
+	position: relative;
+	display: inline;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	top: 25%;
+	left: 1%;
+}
+
+
+/*#register ul {
+	background-color: yellow;
+	position: relative;
+	overflow: hidden;
+	list-style-type: none;   /* removes bullets 
+	margin: 0;
+	padding: 0;
+}*/
+
+#register li {
+	float: left;
+	font-family: 'Raleway', sans-serif;
+	/*display: inline-block;*/
+}
+
+#register nav > ul > li > a:link, a:visited {
+	display: block;
+	width: 120px;
+	text-align: center;
+	padding: 4px;
+	text-decoration: none;
+}
+
+#register nav > ul > a:hover, a:active {
+	background-color: purple;
+}
+
+#menu {
+	display: inline-block;
+	top: 50px;
+}
+
+
+
 
 #learn {
 	/*background: url("../images/test.jpg") 50% 0 no-repeat;*/
