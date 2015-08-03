@@ -4,6 +4,7 @@
 	box-sizing: border-box;
 }
 
+/*we did this in class*/
 .row:after {
 	content: "";
 	clear: both;
