@@ -80,9 +80,9 @@ article {
 
 .buttons {
 	position: relative;
-	top: 40%;
+	top: 50%;
 	width: 1000px;
-	margin-left: 20px;
+	margin-left: 40%;
 }
 
 
@@ -190,7 +190,7 @@ nav {
 	position: relative;
 	display: inline;
 	list-style-type: none;
-	margin: 0;
+	margin: 20px;
 	padding: 0;
 	overflow: hidden;
 	top: 25%;
@@ -209,6 +209,7 @@ nav {
 
 #register li {
 	float: left;
+	margin: 2%;
 	font-family: 'Raleway', sans-serif;
 	/*display: inline-block;*/
 }
@@ -225,9 +226,6 @@ nav {
 	background-color: purple;
 }
 
-#menu {
-	display: inline-block;
-}
 
 #register #ryan {
 	display: inline-block;
@@ -260,6 +258,11 @@ nav {
 	width: 100%;
 	max-width: 1920px;
 	position: relative;
+}
+
+#learn #ryanOops {
+	display: inline-block;
+	float: bottom;
 }
 
 #learn h1 {
