@@ -42,7 +42,6 @@ article {
 	height: 1000px;
 	/*margin: 0 auto;*/
 	width: 100%;
-	max-width: 1920px;
 	position: relative;
 }
 
@@ -150,7 +149,6 @@ input.learnButton {
 	height: 1000px;
 	margin: 0 auto;
 	width: 100%;
-	max-width: 1920px;
 	position: relative;
 }
 
@@ -230,7 +228,6 @@ nav {
 #register #ryan {
 	display: inline-block;
 	float: bottom;
-	max-width: 1920px;
 	width: 100%;
 	z-index: 1;
 
@@ -256,7 +253,6 @@ nav {
 	height: 1000px;
 	margin: 0 auto;
 	width: 100%;
-	max-width: 1920px;
 	position: relative;
 }
 
@@ -289,7 +285,6 @@ nav {
 	height: 1000px;
 	margin: 0 auto;
 	width: 100%;
-	max-width: 1920px;
 	position: relative;
 }
 
