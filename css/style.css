@@ -176,7 +176,7 @@ nav {
 	top: 0;
 	left: 0;
 	z-index: 9999;
-				vertical-align: middle;
+	vertical-align: middle;
 }
 
 #register #logo {
@@ -227,7 +227,6 @@ nav {
 
 #menu {
 	display: inline-block;
-	top: 50px;
 }
 
 
