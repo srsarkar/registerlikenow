@@ -230,11 +230,12 @@ nav {
 }
 
 #register #ryan {
-	position: relative;
+	display: inline-block;
+	float: bottom;
 	max-width: 1920px;
 	width: 100%;
-	margin-top: 15.1%;
 	z-index: 1;
+
 }
 
 #register #thing {
@@ -261,19 +262,27 @@ nav {
 	position: relative;
 }
 
-#learn article {
+#learn h1 {
 	font-family: 'Raleway', sans-serif;
-	font-size: 74px;
+	font-size: 24px;
 	height: 458px;
 	position: absolute;
-	text-align: center;
+	text-align: right;
+	padding-right: 5%;
 	top: 150px;
 	width: 100%;
+}
+
+#learn #pvs_search {
+	display: inline-block;
+	position: relative;
+	margin-top: -50px;
 }
 
 #about {
 	/*background: url("../images/aboutBG.jpg") 50% 0 no-repeat;*/
 	background-color: yellow;
+	font-family: 'Raleway', sans-serif;
 	height: 1000px;
 	margin: 0 auto;
 	width: 100%;
@@ -281,12 +290,29 @@ nav {
 	position: relative;
 }
 
-#about article {
-	font-family: 'Raleway', sans-serif;
-	font-size: 74px;
+#about h1 {
+
+	font-size: 48px;
 	height: 458px;
 	position: absolute;
 	text-align: center;
-	top: 150px;
+	top: 70px;
 	width: 100%;
+}
+
+#about img {
+	border: 1px solid black;
+	border-radius: 2%;
+	margin-top: 20%;
+	margin-left: 35%;
+}
+
+#about p {
+	display: inline-block;
+	font-family: 'Raleway', sans-serif;
+	font-size: 24px;
+	color: black;
+	margin-top: 10%;
+	margin-left: 10%;
+	margin-right: 10%;
 }
