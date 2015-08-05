@@ -167,7 +167,6 @@ nav {
 	background-color: yellow;
 	display: block;
 	/*margin: 8px 22px 8px 22px;*/
-	overflow: hidden;
 	float: left;
 	width: 100%;
 	height: 15%;
@@ -176,13 +175,14 @@ nav {
 	left: 0;
 	z-index: 9999;
 	vertical-align: middle;
+		overflow: hidden;
 }
 
 #register #logo {
 	float: left;
 	display: inline;
 	vertical-align: middle;
-	top: 50px;
+	margin: 2%;
 }
 
 #register ul {
@@ -191,7 +191,7 @@ nav {
 	list-style-type: none;
 	margin: 20px;
 	padding: 0;
-	overflow: hidden;
+
 	top: 25%;
 	left: 1%;
 }
@@ -213,7 +213,7 @@ nav {
 	/*display: inline-block;*/
 }
 
-#register nav > ul > li > a:link, a:visited {
+#register nav > ul > li > a:link {
 	display: block;
 	width: 120px;
 	text-align: center;
@@ -221,7 +221,7 @@ nav {
 	text-decoration: none;
 }
 
-#register nav > ul > a:hover, a:active {
+#register nav > ul > li> a:hover {
 	background-color: purple;
 }
 
@@ -258,11 +258,13 @@ nav {
 }
 
 #learn #ryanOops {
+	z-index: 1;
 	display: inline-block;
 	float: bottom;
 }
 
 #learn h1 {
+	z-index: 2;
 	font-family: 'Raleway', sans-serif;
 	font-size: 24px;
 	height: 458px;
@@ -274,6 +276,7 @@ nav {
 }
 
 #learn #pvs_search {
+	z-index: 3;
 	display: inline-block;
 	position: relative;
 	margin-top: -50px;
